@@ -83,7 +83,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
 
 # Role assignment to allow AKS to pull from ACR
 resource "azurerm_role_assignment" "aks_acr_pull" {
-  principal_id         = '3e089cfc-94bb-4765-bcc5-a0aae9cface7'
+  principal_id         = "3e089cfc-94bb-4765-bcc5-a0aae9cface7"
   role_definition_name = "AcrPull"
   scope                = azurerm_container_registry.acr.id
 

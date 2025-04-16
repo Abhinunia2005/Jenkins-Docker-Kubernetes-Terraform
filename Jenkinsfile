@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         ACR_NAME = 'abhi8414'
-        AZURE_CREDENTIALS_ID = 'azure-service-principal'
+        AZURE_CREDENTIALS_ID = 'e6970e31-46af-4aa4-865a-484df122a6bb'
         ACR_LOGIN_SERVER = "${ACR_NAME}.azurecr.io"
         IMAGE_NAME = 'webapidocker1'
         IMAGE_TAG = 'latest'
